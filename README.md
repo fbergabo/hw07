@@ -1,0 +1,3 @@
+Physics 2200 Homework 7: 
+
+We derived a recurrence relation for the integral used earlier in the semester. This recurrence relation did not evaluate the integral correctly for high values of n. In this program, the recurrence relation begins with the initial condition at n=100, and calculates the other terms using the initial condition. This direction of recursion is stable. Here we also compare the results of the recurrence relation to the results of a general integrator. We find that the results agree to within a very small margin of error. We then compare the timing needed for each function to generate the values for each term from n = 0 to n = 100. We find that the recurrence relation is considerably faster than the general integrator.
